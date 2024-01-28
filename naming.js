@@ -42,5 +42,4 @@ var myCurrentLocation = 'talaimari, rajshahi'; // camel case
 var MyCurrentLocation = 'talaimari, rajshahi'; // pascal case
 
 
-// we can't use any special character
-// just '_' can be used
+// we can't '-'
