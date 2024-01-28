@@ -43,7 +43,6 @@ console.log(value);
 console.log(typeof value);
 
 
-
 /**
  * *************** toFixed() ***************
  * ==> fixed that how many number will show after point
@@ -77,3 +76,15 @@ console.log(total); // 0.2
  */
 console.log(50/0);
 console.log(-50/0);
+
+
+
+/**
+ * ******* isNaN(x) *******
+ * 
+ * ==> it's a function to check the x is a NaN or not!
+ */
+
+console.log(isNaN(2));
+console.log(isNaN('2'));
+console.log(isNaN('moon'));
