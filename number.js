@@ -85,6 +85,6 @@ console.log(-50/0);
  * ==> it's a function to check the x is a NaN or not!
  */
 
-console.log(isNaN(2));
-console.log(isNaN('2'));
-console.log(isNaN('moon'));
+console.log(isNaN(2)); // Number
+console.log(isNaN('2')); // string but it's a Number
+console.log(isNaN('moon')); // NaN
